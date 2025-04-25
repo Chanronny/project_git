@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def listings(request):
-    return render(request,'listings/listings.html',{'listings': 'something changes'})
+    return render(request,'listings/listings.html',{'listings': 'something revised and add changes'})
 
 def listing(request):
     return render(request,'listings/listing.html')
